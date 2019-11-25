@@ -43,7 +43,7 @@ Oh wow! It seems that the other two have been merged as well. Just you haven't n
 
 Place the `git-cleanup-merged` script in your `$PATH`. Personally, I am using `~/bin` for this. Make sure it has exec permissions.
 
-## Ceveats
+## Cаveats
 
 The master branch would never be deleted. The currently selected branch would never be deleted as well.
 Only information in the local branch is used. So regular `git pull --prune` is your friend.
